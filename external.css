@@ -1,0 +1,37 @@
+h3{
+    font-size: 30px;
+    font-style: italic;
+    /* text-decoration: overline; */
+}
+.second_blog{
+    /* display: none; hide */
+    /* visibility: hidden; empty */
+}
+.blog{
+    border:10px solid tomato;
+    margin: 20PX;
+    box-shadow: 20PX 10PX 10PX blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+ .lorem1{
+        border: 1px solid rosybrown;
+        /* display: block; */
+        display: inline-block;
+    }
+.header{
+height: 250px;;
+/* background-image: url('images/header.jpg'); */
+background-image: url(../My_first_website/images/header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align:center;
+background-position: center;
+padding-top: 200px;
+margin: 0%;
+
+
+
+
+
+    }

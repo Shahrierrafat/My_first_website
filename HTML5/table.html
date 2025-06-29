@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table in HTML5</title>
     <style>
-        table{
+        table {
             border-collapse: collapse;
         }
-        td, th{
+
+        td,
+        th {
             border: 1px solid;
         }
     </style>
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
+
 <body>
     <header>
+<nav>
+    <ul>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="from.html">Form</a></li>
+        <li><a href="table.html">Table</a>
+    <ul class="dropdown">
+        <li><a href="video.html">Video</a></li>
+        <li><a href="from.html">Form</a></li>
+        <li><a href="table.html">Table</a></li>    
+        <li><a href="blog.html">Blog</a></li>
 
+    </ul>
+</li>    
+        <li><a href="blog.html">Blog</a></li>
+
+    </ul>
+</nav>
     </header>
     <main>
         <h2>HTML TABLE</h2>
         <table>
             <caption>Employee Salary Table:</caption>
             <thead>
-<tr>
-    <th>No.</th>
-    <th>Name</th>
-    <th>Company</th>
-    <th>Salary</th>
-</tr>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -56,9 +77,9 @@
                 </tr>
             </tbody>
             <tfoot>
-<tr>
-    <td colspan="2">Total Employee:4</td>
-</tr>
+                <tr>
+                    <td colspan="2">Total Employee:4</td>
+                </tr>
             </tfoot>
         </table>
     </main>
@@ -66,4 +87,5 @@
 
     </footer>
 </body>
+
 </html>

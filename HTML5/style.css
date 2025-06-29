@@ -1,0 +1,13 @@
+.parent{
+    border: 10px dotted crimson;
+    background-color: antiquewhite;
+    display: flex;
+}
+.child{
+    border: 2px solid rgb(152, 175, 219);
+    background: rgb(130, 236, 237);
+    padding: 20px;
+    font-size: 18px;
+    margin: 10px 0;
+    /* display: inline; */
+}

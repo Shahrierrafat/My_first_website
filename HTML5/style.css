@@ -1,7 +1,14 @@
 .parent{
-    border: 10px dotted crimson;
+    padding: 25px;
     background-color: antiquewhite;
     display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   
 }
 .child{
     border: 2px solid rgb(152, 175, 219);
@@ -9,5 +16,6 @@
     padding: 20px;
     font-size: 18px;
     margin: 10px 0;
+    
     /* display: inline; */
 }
